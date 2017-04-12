@@ -1,0 +1,57 @@
+
+
+header { margin:50px 100px 25px 100px;
+	padding: 25px 100px 10px 100px;
+	text-align: center;
+	width: auto;
+
+}
+
+
+body {font-family: 'Oswald', sans-serif;
+	text-align: center;
+	color: #666666;
+	width: auto;
+
+}
+
+
+li {display: inline;
+	margin: 5px;
+	padding:10px 40px 10px 40px; 
+
+}
+
+
+.nav {
+	border-top:2px solid #666666;
+	border-bottom:2px solid #666666;
+	margin: 20px 40px 20px 20px;
+	height: 20%;
+	color: #666666;
+	overflow: hidden;
+}
+
+
+footer {float: bottom;
+
+
+}
+
+
+a {text-decoration: none;
+	color: inherit;
+
+}
+
+
+a:active {color: black;
+
+
+}
+
+
+a:hover {color: red;
+
+
+}

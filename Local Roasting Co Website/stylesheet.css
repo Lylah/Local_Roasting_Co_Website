@@ -1,0 +1,316 @@
+html {
+	font-size: 16px;
+}
+
+
+
+header {
+	background-image: url("images/logo_02.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
+	padding: 20px;
+	margin-top: 5%;
+	margin-bottom:5%;
+	margin-left:auto;
+	margin-right: auto;
+	text-align: center;
+	width: auto;
+	height: 7em;
+
+}
+
+
+body {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	color: #666666;
+	width: auto;
+
+}
+
+
+li {
+	display: inline;
+	margin: 5px;
+	padding:10px 1% 10px 1%; 
+
+}
+
+.banner {
+	width: 100%;
+	height: 25em;
+	background-image: url(images/.jpg);
+	background-repeat: no-repeat;
+	background-size: 75%;
+	background-position: center;
+	vertical-align: ;
+}
+
+.nav, footer {
+	border-top:2px solid #666666;
+	border-bottom:2px solid #666666;
+	margin-top: 20px;
+	margin-bottom:20px;
+	margin-left: auto;
+	margin-right:auto;
+	height: 20%;
+	color: #666666;
+	overflow: hidden;
+}
+
+.location { width: auto;
+	margin-right: auto;
+	margin-left: auto;
+text-align: center;}
+
+
+footer {
+	width: 100%;
+	float: bottom;
+
+}
+
+footer ul, footer li {
+	text-align: center;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+
+a {
+	text-decoration: none;
+	color: inherit;
+
+}
+
+
+a:active {
+	color: black;
+
+}
+
+
+a:hover {
+	color: red;
+
+}
+
+/*ABOUT US PAGE*/
+.about_us {
+	text-align:left;
+	padding:15px 30px 30px 30px;
+	width:75%;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.pic {
+	text-align: center;
+}
+
+/* MENU PAGE */
+
+.menu_title h1{
+	text-shadow:
+    -1px -1px 0 #666666,
+    1px -1px 0 #666666,
+    -1px 1px 0 #666666,
+    1px 1px 0 #666666; 
+	height: 20%;
+	width: 99%;
+	color: white;
+	text-align: left;
+	margin-left: 0%;
+	background-image: url(images/razlyn_menu_3_banner.jpg);
+	background-size: 100% 100%;
+	background-repeat: none;
+	text-indent: 15%;
+	line-height: 3.5;
+	margin-top:-1%;
+	
+	}
+
+#menu_items {
+	display: block;
+	width: 100%;
+	padding:0% 10% 0 0;
+	margin-right: auto;
+	margin-left:auto;
+	text-align: center;
+
+}
+
+#menu_items li{
+	display: block;
+	line-height: .5;
+}
+
+
+.price, .coffee_drinks {
+	text-align: center;
+	float:left;
+	width: 50%;
+}
+
+#extras{
+	width: 100%;
+	display: inline-block;
+	float: bottom;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -1%;
+}
+
+
+.wholesale_beans li{
+	display: block;
+}
+
+.wholesale_beans{
+	float: left;
+	width: 100%;
+	padding-right: 10%;
+}
+
+#jag {
+	width: 50%;
+	float:left; 
+	text-align: center;
+}
+
+#reg {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+/* WHERE TO FIND US PAGE */
+
+#page_title {
+	width: 100%;
+	height: 15%;
+	text-align: left;
+	padding: 20px;
+	background-image: url("images/jagshelfcopy.png");
+	background-position: right;
+	background-size: 100%;
+	background-repeat: none;
+	background-position: ;
+
+}
+
+#page_title h1{
+	text-indent: 5%;
+	color: white;
+	text-shadow:
+    -1px -1px 0 #666666,
+    1px -1px 0 #666666,
+    -1px 1px 0 #666666,
+    1px 1px 0 #666666;
+
+}
+
+
+#portland {
+	text-align: left;
+	width: 100%;
+	padding-left: 10%;
+	float: left;
+}
+
+#eastside {
+	width: 50%;
+	float: left;
+}
+
+#westside {
+	width: 50%;
+	float: left;
+}
+
+#westside img {text-align: center;
+	padding-top: 10%;
+	padding-right: 10%
+}
+
+#beaverton img {text-align: center;
+	padding-top: 10%;
+	padding-bottom: 25%;
+	padding-right: 10%;
+}
+
+#beaverton, #lake_oswego, #eugene, #vancouver {
+	padding-left:10%;
+	width: 40%;
+	float: left;
+	text-align: left;
+}
+
+
+/* CONTACT PAGE */
+
+#contact_title h1 {
+	width: 100%;
+	text-align: left;
+	padding: 20px;
+}
+
+#contact_title {line-height: 1;}
+
+#contact_info {
+	text-align: center;
+	vertical-align: 50%;
+	width:47%;
+	padding-top: 10%;
+	padding-left: 3%;
+	
+}
+
+#contact_photo {
+	width: 48%;
+	background-image: url(images/storefront.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60%;
+	margin: 1%;
+
+}
+
+#contact_info, #contact_photo, #wholesale_info, #wholesale_img {
+	float: left; 
+	height: 30em;
+	}
+
+/* WHOLESALE INFO */
+
+#wholesale_title h1 {
+	text-align: left;
+	margin-left: 10%;
+}
+
+#wholesale_info {
+	text-align: center;
+	width: 30%;
+	margin-left: 10%;
+	margin-right:10%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+#wholesale_img {
+	background-image: url(images/coffee_roaster.jpg);
+	background-position: center;
+	background-size: 75%;
+	width: 40%;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
